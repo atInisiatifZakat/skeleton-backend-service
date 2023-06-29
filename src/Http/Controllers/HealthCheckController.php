@@ -12,7 +12,7 @@ final class HealthCheckController extends Controller
     {
         return new JsonResource([
             'status' => true,
-            'name' => 'Outflows Rest API @ Inisiatif Zakat Indonesia',
+            'name' => 'Skeleton Rest API @ Inisiatif Zakat Indonesia',
             'date' => now()->toAtomString(),
         ]);
     }
