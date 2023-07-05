@@ -67,6 +67,6 @@ final class UsersTableSeeder extends Seeder
             'email' => 'user.jakarta@izi.or.id',
             'loginable_id' => $employee->getKey(),
             'loginable_type' => 'EMPLOYEE',
-        ]);
+        ])->create();
     }
 }
