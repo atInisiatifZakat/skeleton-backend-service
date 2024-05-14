@@ -4,7 +4,7 @@
     "description": "Skeleton application in Inisiatif Zakat Indonesia",
     "license": "proprietary",
     "require": {
-        "php": "~8.1.0|~8.2.0",
+        "php": "^8.1",
         "guzzlehttp/guzzle": "^7.7",
         "inisiatif/user": "^2.0",
         "laravel/framework": "^10.14",
